@@ -1,9 +1,8 @@
 import { combineReducers } from 'redux';
-import AuthReducer from './AuthReducer';
-import SelectPopokReducer from './SelectPopokReducer';
+import authReducer from './authReducer';
+
 
 export default combineReducers({
     pikachu: () => 'Ryan Reynolds',
-    auth: AuthReducer,
-    selectedPopok: SelectPopokReducer
+    auth: authReducer
 });
